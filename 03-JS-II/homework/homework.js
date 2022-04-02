@@ -152,12 +152,15 @@ function esPrimo(numero) { 5
   if(numero < 2){
     return "false"
   }
-  if(numero === 2){
-    return true
-  }
+  
+  //if(numero === 2){
+    //return true;
+  //}
+  // Esto es un comentario//
+
   for (var i =2; i < numero; i++ ){
     if(numero % i ===0){
-      return false
+      return false; 
     }
   }
   return true;
