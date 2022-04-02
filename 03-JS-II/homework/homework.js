@@ -140,7 +140,10 @@ function operadoresLogicos(num1, num2, num3) {
     num3 = num3 + 1;
     return num3;
   }
-  return false; 
+  else {
+    return false;
+  }
+   
 }
 
 function esPrimo(numero) { 5
@@ -152,7 +155,7 @@ function esPrimo(numero) { 5
   if(numero < 2){
     return "false"
   }
-  
+
   //if(numero === 2){
     //return true;
   //}
@@ -171,6 +174,10 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 
+  if(valor = true){
+    return "soy verdadero"
+  }
+  return "Soy falso"
 }
 
 function tablaDelSeis(){
