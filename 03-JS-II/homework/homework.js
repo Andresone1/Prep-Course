@@ -175,17 +175,22 @@ function esVerdadero(valor){
   //Escribe tu código aquí
 
   if(valor = true){
-    return "soy verdadero"
+    return "soy verdadero";
   }
-  return "Soy falso"
+  return "Soy falso";
 }
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
-}
+  var resultadosDelatablaDelSeis = [];
+  for (var i = 0; i <=10; i++ ) {
+    var resultado = 6 * i;
+    resultadosDelatablaDelSeis.push(resultado)
+    }
+    return resultadosDelatablaDelSeis;
+  }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
