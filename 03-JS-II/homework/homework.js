@@ -156,7 +156,7 @@ function esPrimo(numero) { 5
     return true
   }
   for (var i =2; i < numero; i++ ){
-    if(numero % i ===0){
+    if(5 % i ===0){
       return false
     }
   }
