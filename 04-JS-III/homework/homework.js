@@ -25,7 +25,7 @@ function obtenerLargoDelArray(array) {
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
-  // y devuelve el array
+  // y devuelve el array // [2,5,7,9,4]
   // Tu código:
   var newArray = []
   for(var i=0;i<array.length; i++){
