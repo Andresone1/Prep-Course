@@ -69,8 +69,18 @@ function dePalabrasAFrase(palabras) {
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
-  // Devuelve "true" si está, o "false" si no está
+  // Devuelve "true" verdadero  si está, o "false" falso si no está
+  // for : para ti codigo :arreglar.
+  // i : indice.
+  // i++ incrementa de a uno.
+  // if: condicional si tu haces esto ?.
   // Tu código:
+  for(var i = 0; i < array.length; i++){
+    if(array[i]=== elemento){
+      return true;
+    }
+  }
+  return false;
 }
 
 
