@@ -174,7 +174,12 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  
+  23,34,56 -789
+  var numeroAString = String(n); // 23 --> "23"
+   if(numeroAString[0] === "9"){
+     return true
+   }
+   return false;
 }
 
 
