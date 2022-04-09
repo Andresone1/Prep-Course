@@ -116,14 +116,14 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  [1,345,6]
-  var numeroMasGrande = numeros [0]
-  for(var i = 1; i < numeros.length; i++){
+  //[1,345,6]
+  var numeroMasGrande = numeros[0]
+  for(var i = 1; i < numeros.length; i++ ){
     if(numeros[i] > numeroMasGrande){
-      numeroMasGrande = numeros[i]
+      numeroMasGrande = numeros[i];
     }
   }
-  return numeroMasGrande;
+    return numeroMasGrande;
 }
 
 
@@ -131,6 +131,14 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+  if(arguments.length < 1){
+    return 0;
+  }
+  var resultadosDelaMultiplicaciòn = 1;
+  for(var i = 0; i < arguments.length; i++){
+    resultadosDelaMultiplicaciòn *= arguments[i]
+  }
+  return resultadosDelaMultiplicaciòn;
 }
 
 
