@@ -108,6 +108,7 @@ function promedioResultadosTest(resultadosTest) {
   }
   prom = sum / resultadosTest.length;
   return prom;
+  //return agregarNumeros(resultadosTest) / resultadosTest.length;
 }
 
 
