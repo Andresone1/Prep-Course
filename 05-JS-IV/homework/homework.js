@@ -138,10 +138,13 @@ function pasarUsuarioAPremium(usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
   // usuarios
-  for(var i = 0; i < usuarios.length;i++){
-    usuarios [i].esPremiun = true;
+
+  var usuarios = [ { esPremiun:false } , { esPremiun:false } , { esPremiun:false }];
+
+  for(var i = 0; i< usuarios.length; i++) {
+    usuarios[i].esPremiun = true;
   }
-  return usuarios
+  return usuarios;
 }
 
 function sumarLikesDeUsuario(usuario) {
@@ -168,11 +171,14 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
+
   producto.calcularPrecioDescuento = function () {
     var descuento = producto.precio (producto.precio * producto.porcentajeDeDescuento);
     return descuento;
   };
+
   return producto;
+
 }
 
 // No modificar nada debajo de esta línea
