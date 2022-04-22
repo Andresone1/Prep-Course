@@ -39,14 +39,15 @@ function sumarArray(numeros, cb) {
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
-  //Tu código:
-  [1,2,3,4,5]
+  
   //for(var i = 0; i < array.length; i++){
   //  array[i]
-  //}(
-  array.forEach(function(elemento){
-    cb(elemento)
-  })
+  //}
+
+  //Tu código:
+  [1,2,3,4,5]
+  
+  array.forEach( (elemento) =>  cb(elemento) );
 }
 
 function map(array, cb) {
@@ -54,6 +55,11 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+  [1,2,3,4,5]
+
+  return array.map(function(elemento){
+    return cb(elemento)
+  })
 }
 
 function filter(array) {
