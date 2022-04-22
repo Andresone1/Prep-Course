@@ -56,7 +56,7 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
   [1,2,3,4,5]
-
+  // [2,3,4,5,6] = Map devuel el array
   return array.map(function(elemento){
     return cb(elemento)
   })
@@ -66,6 +66,12 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  ["ala", "bebe", "hola", "alma", "aleta"];
+
+  let newArr2 = array.filter(function(elemento){
+    return elemento[0].toLowerCase() === "a" 
+  });
+  return newArr2;
 }
 
 // No modificar nada debajo de esta línea
