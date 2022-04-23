@@ -187,7 +187,7 @@ Abre una nueva ventana en el navegador y completa [homework.html](https://github
       <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=09-CSS-Positioning">
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
+        Muy chebre se nota la tecnica y el tiempo que le dedican gracias por enseñarme.
       </a>
     </td>
   </tr>
